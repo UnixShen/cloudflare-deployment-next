@@ -11,6 +11,8 @@ For all limits and quotas, retrieve from the product's `/platform/limits/` page.
 
 ## Commands
 
+npm create cloudflare@latest my-app --framework=next
+
 | Command | Purpose |
 |---------|---------|
 | `npx wrangler dev` | Local development |
