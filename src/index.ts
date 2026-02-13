@@ -15,6 +15,8 @@ export default {
 	async fetch(request, env, ctx): Promise<Response> {
 		const url = new URL(request.url);
 		switch (url.pathname) {
+			case '/mine':
+				return new Response('Hello, China!');
 			case '/message':
 				return new Response('Hello, World!');
 			case '/random':
